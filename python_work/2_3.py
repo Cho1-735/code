@@ -19,5 +19,3 @@ print("\n")
 trae_url = "https://trae.com/"
 simple_url=trae_url.removeprefix('https://')
 print(simple_url)
-
-

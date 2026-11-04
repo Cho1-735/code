@@ -11,7 +11,7 @@ moto1.append('BMW')
 print(moto1)
 moto.insert(2,'BMW')
 print(moto)
-del  moto[2]
+del  moto[2:4]
 print(moto)
 popped_moto=moto.pop()
 print(moto)

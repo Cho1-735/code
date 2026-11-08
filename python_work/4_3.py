@@ -8,3 +8,9 @@ for value in range(1,11):
     #squares.append(square)
     squares.append(value**2)#等价line7+8，square作为临时变量
 print(squares)
+digits=[1,2,3,4,5]
+print(min(digits))
+print(max(digits))
+print(sum(digits))  
+squares=[value**2 for value in range(1,11)]
+print(squares)#列表推导式
